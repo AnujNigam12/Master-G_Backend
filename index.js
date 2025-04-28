@@ -17,7 +17,7 @@ const allowedOrigins = [process.env.FRONTEND_URL]; // Add more origins as needed
 app.use(
     cors({
         origin: [
-            'http://localhost:5173',
+            'http://localhost:3000',
             allowedOrigins
         ],
         credentials: true,
